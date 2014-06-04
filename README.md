@@ -8,10 +8,10 @@
 # Create html post.
 ```
     cabal install pandoc
-    pandoc -f latex+lhs -t html -s Main.lhs > kdabhsqml.html
+    pandoc -f latex+lhs -t html -s Main.lhs > hsqml-listmodel.html
 ```
 
 # Create PDF
 ```
-    pandoc -f latex+lhs -s Main.lhs -o kdabhsqml.pdf
+    pandoc -f latex+lhs -s Main.lhs -o hsqml-listmodel.pdf
 ```
